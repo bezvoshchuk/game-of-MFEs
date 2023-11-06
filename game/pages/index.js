@@ -12,9 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.description}>
-          <p>Hello! This content is hosted locally.</p>
-        </div>
+        <h1 className={styles.title}>Welcome to Battle of microfrontends. Please choose your fighter 🕹️</h1>
       </main>
     </div>
   );
