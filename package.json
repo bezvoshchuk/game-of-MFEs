@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "install:allDeps": "concurrently \"cd mario; npm i \" \"cd luigi; npm i\" \"cd game; npm i \"",
+    "start:allApps": "concurrently \"cd mario; npm run dev \" \"cd luigi; npm run dev\" \"cd game; npm run dev \""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
